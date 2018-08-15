@@ -18,8 +18,6 @@ function configure_ssh()
         mkdir $_home_folder/.ssh/
         chown -R ${_user}:${_user} $_home_folder/.ssh/
         generate_and_copy_ssh_key $_home_folder
-
-
 }
 
 function add_user_for_ansible()
