@@ -1,0 +1,5 @@
+---
+mongodb_version: "3.2"
+mongodb_apt_keyserver: 'keyserver.ubuntu.com'
+mongodb_apt_gpg_key: 'EA312927'
+mongodb_ubuntu_apt_repo: 'deb http://repo.mongodb.org/apt/{{ ansible_distribution|lower }} {{ ansible_distribution_release }}/mongodb-org/{{ mongodb_version }} multiverse'

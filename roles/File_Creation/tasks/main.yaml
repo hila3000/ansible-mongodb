@@ -1,0 +1,8 @@
+- name: create file
+  copy:
+    content: "hi hi"
+    dest: /tmp/newfile
+    force: no
+    group: sys
+    owner: root
+    mode: 0555

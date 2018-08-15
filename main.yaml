@@ -1,0 +1,6 @@
+- hosts: all
+  become: True
+
+  roles:
+    - mongo
+    - File_Creation
